@@ -14,6 +14,11 @@
 		FC655CAA28ED56BC00C1B4AB /* SampleWeatherSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CA928ED56BC00C1B4AB /* SampleWeatherSwiftUITests.swift */; };
 		FC655CB428ED56BC00C1B4AB /* SampleWeatherSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CB328ED56BC00C1B4AB /* SampleWeatherSwiftUIUITests.swift */; };
 		FC655CB628ED56BC00C1B4AB /* SampleWeatherSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CB528ED56BC00C1B4AB /* SampleWeatherSwiftUIUITestsLaunchTests.swift */; };
+		FC655CC328ED581700C1B4AB /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CC228ED581700C1B4AB /* WeatherForecast.swift */; };
+		FC655CC528ED582A00C1B4AB /* WeatherForecastRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CC428ED582A00C1B4AB /* WeatherForecastRequest.swift */; };
+		FC655CC728ED584B00C1B4AB /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CC628ED584B00C1B4AB /* ApiClient.swift */; };
+		FC655CC928ED586600C1B4AB /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CC828ED586600C1B4AB /* WeatherViewModel.swift */; };
+		FC655CCB28ED68D300C1B4AB /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC655CCA28ED68D300C1B4AB /* BaseRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		FC655CAF28ED56BC00C1B4AB /* SampleWeatherSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleWeatherSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC655CB328ED56BC00C1B4AB /* SampleWeatherSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWeatherSwiftUIUITests.swift; sourceTree = "<group>"; };
 		FC655CB528ED56BC00C1B4AB /* SampleWeatherSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWeatherSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC655CC228ED581700C1B4AB /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		FC655CC428ED582A00C1B4AB /* WeatherForecastRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastRequest.swift; sourceTree = "<group>"; };
+		FC655CC628ED584B00C1B4AB /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		FC655CC828ED586600C1B4AB /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		FC655CCA28ED68D300C1B4AB /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				FC655C9828ED56B400C1B4AB /* SampleWeatherSwiftUIApp.swift */,
+				FC655CC228ED581700C1B4AB /* WeatherForecast.swift */,
+				FC655CCA28ED68D300C1B4AB /* BaseRequest.swift */,
+				FC655CC428ED582A00C1B4AB /* WeatherForecastRequest.swift */,
+				FC655CC628ED584B00C1B4AB /* ApiClient.swift */,
+				FC655CC828ED586600C1B4AB /* WeatherViewModel.swift */,
 				FC655C9A28ED56B400C1B4AB /* ContentView.swift */,
 				FC655C9C28ED56BC00C1B4AB /* Assets.xcassets */,
 				FC655C9E28ED56BC00C1B4AB /* Preview Content */,
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC655CC328ED581700C1B4AB /* WeatherForecast.swift in Sources */,
+				FC655CC928ED586600C1B4AB /* WeatherViewModel.swift in Sources */,
 				FC655C9B28ED56B400C1B4AB /* ContentView.swift in Sources */,
+				FC655CCB28ED68D300C1B4AB /* BaseRequest.swift in Sources */,
 				FC655C9928ED56B400C1B4AB /* SampleWeatherSwiftUIApp.swift in Sources */,
+				FC655CC528ED582A00C1B4AB /* WeatherForecastRequest.swift in Sources */,
+				FC655CC728ED584B00C1B4AB /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
